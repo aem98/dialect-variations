@@ -52,23 +52,27 @@
 <!--red verb line 42, 45-->     
 
 <excerpt>
-أنا <verb>بشتغل</verb> شوفير تكسي
-ومرة رحت <prep>بالتكسي</prep> <prep>على</prep> واحد من <gender>المولات المشهورة</gender> <prep>بعمان</prep> <verb>أشتري</verb> أغراض للبيت وكنت <verb>بدي</verb> أصف <prep>بالكراج</prep> تاع المول
-ولا الأمن <verb>بحكيلي</verb> ممنوع التكاسي يفوتو <prep>على الكراج</prep> وخلاني أصف برة.
-طيب يعني عشان الواحد <verb>يقدر</verb> <verb>يروح</verb> ويجي وين ما بده لازم <verb>يكون</verb> عنده <gender>سيارة خاصة</gender> غير التكسي؟
-وأنا <verb>بشوف</verb> انو هذا سبب من أسباب الطبقية<gender> <prep>بالمجتمع</prep> الأردني</gender>.
+أنا <verb prefix='y'>بشتغل</verb> شوفير تكسي
+ومرة رحت بالتكسي على واحد من <gender agree='y'>المولات المشهورة</gender> بعمان <verb prefix='n'>أشتري</verb> أغراض للبيت وكنت <verb prefix='n'>بدي</verb> أصف <prep prefix='y'>بالكراج</prep> تاع المول
+ولا الأمن <verb prefix='y'>بحكيلي</verb> ممنوع التكاسي يفوتو <prep connect='n'>على الكراج</prep> وخلاني أصف برة.
+طيب يعني عشان الواحد <verb prefix='n'>يقدر</verb> <verb>يروح</verb> ويجي وين ما بده لازم <verb prefix='n'>يكون</verb> عنده <gender agree='y'>سيارة خاصة</gender> غير التكسي؟
+وأنا <verb prefix='y'>بشوف</verb> انو هذا سبب من أسباب الطبقية<gender agree='y'> بالمجتمع الأردني</gender>.
 </excerpt>
 
+<!--red verb line 58-->
+
 <excerpt>
-هاد المحل من سنة 1940, لما <verb>توفى</verb> الوالد أنا استلمت المحل.
-<gender>محلات القديمة</gender> بوسط البلد <verb>بتختلف</verb> عن أي مطعم في <gender>عمان الغربية</gender>،
-الزباين هون <verb>بتكون</verb> <verb>عارفه</verb> شو <verb>بدها</verb> <verb>تاكل</verb> مافي اشي مخفي عنها.
-فيي <gender><verb>خصلة</verb> <adj>كتير</adj> حلوة</gender>!
-لما <verb>بيجي</verb> زبون <verb>بده</verb> <verb>ياكل</verb>،
-قبل ما يحط اللقمة بتمه بدوقها قدامه مشان هو يطمئن لما <verb>يقعد</verb> و<verb>ياكل</verb>.
-مش <verb>بقول</verb> المثل طباخ السم ذواقه!
-<verb>بحب</verb> اكل مع الزباين و<verb>احكي</verb> معهم عشان هما <verb>يرتاحوا</verb> و<verb>يطمنوا</verb>.
+هاد المحل من سنة 1940, لما <verb prefix='n'>توفى</verb> الوالد أنا استلمت المحل.
+<gender agree='y'>محلات القديمة</gender> بوسط البلد <verb prefix='y'>بتختلف</verb> عن أي مطعم في <gender agree='y'>عمان الغربية</gender>،
+الزباين هون <verb prefix='y'>بتكون</verb> <verb>عارفه</verb> شو <verb prefix='n'>بدها</verb> <verb>تاكل</verb> مافي اشي مخفي عنها.
+فيي خصلة <adj type='none'>كتير</adj> حلوة!
+لما <verb prefix='y'>بيجي</verb> زبون <verb prefix='n'>بده</verb> <verb>ياكل</verb>،
+قبل ما يحط اللقمة بتمه بدوقها قدامه مشان هو يطمئن لما <verb prefix='n'>يقعد</verb> و<verb prefix='n'>ياكل</verb>.
+مش <verb prefix='y'>بقول</verb> المثل طباخ السم ذواقه!
+<verb prefix='y'>بحب</verb> اكل مع الزباين و<verb prefix='n'>احكي</verb> معهم عشان هم يرتاحوا و<verb prefix='n'>يطمنوا</verb>.
 </excerpt>
+    
+    <!-- and line 69 2red verbs line 67-->
     
 أنا من الكرك وفاتح هاي الاستراحة من 8 سنين, القعدة هون بتجنن
 والمي متل البحر دايماً لونها أزرق وصافية. الفطور على الصاجية
