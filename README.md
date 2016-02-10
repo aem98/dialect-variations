@@ -1,0 +1,2 @@
+The project focuses on patterns used in the Jordanian dialect of Arabic to notice when certain speakers obey and disobey general grammar rules. It examines authentic snippets of text from Jordanians, taken from the Facebook page called Humans of Amman, as its corpus. The project mainly focuses on three grammar concepts; one, the use of a certain preference in some verbs; two, gender agreement; and three, changes in adjective conjugation. I mark the text up in XML by marking these examples as the elements and stating whether they obey or don't obey as attributes.
+
