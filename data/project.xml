@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../final_project.rnc" type="application/relax-ng-compact-syntax"?>
-
 <final_project>
    
 
@@ -39,17 +37,19 @@
 
 
 <excerpt>
-<gender>الغربه صعبة</gender> لما <verb>تكون</verb> العين عليك <adj>واسعه</adj>,
-و<adj>أصعب</adj> لما <verb>تكون</verb> محط <verb>نقاش</verb> لبشر <verb>بنقسمو</verb> لقسمين,
-ناس <verb>عم تستنى</verb> <verb>ترجع</verb> وإنت <verb>محقق</verb> غايتك, وناس <verb>عم تستنى</verb> فيك ل<verb>تفشل</verb>.
-وصلت لهون بعز الشتويه, الدنيا يلي <gender>حوّلي جديده</gender> بكل شي,
-ثقافه مختلفه ولغة مش مفهومه و<prep>بنفس الوقت</prep> كنت متحمس وخايف!
-<verb>صار</verb> <verb>يدور</verb> براسي سؤال, طب وإذا ما قدرت؟
-صرت <verb>أذّكِر</verb> حالي إنه ما في <verb>رجعه</verb> قبل ما <verb>أحقق</verb> هدفي.
-<verb>بحكو</verb> إنه <gender>أول خطوة</gender> هي الأصعب, وإلي كان أصعب إشي ألي هو مرحله <verb>تعلم</verb> اللغه.
-عدّت السنين <prep>بسرعها</prep> والطموح <adj>كبر</adj> مع السنين, .
+<gender agree='y'>الغربه صعبة</gender> لما <verb prefix='n'>تكون</verb> العين عليك واسعه,
+و<adj type='alif'>أصعب</adj> لما <verb prefix='n'>تكون</verb> محط <verb prefix='n'>نقاش</verb> لبشر <verb prefix='y'>بنقسمو</verb> لقسمين,
+ناس <verb prefix='n 3m'>عم تستنى</verb> <verb>ترجع</verb> وإنت <verb prefix='n'>محقق</verb> غايتك, وناس <verb prefix='n 3m'>عم تستنى</verb> فيك ل<verb prefix='n'>تفشل</verb>.
+وصلت لهون بعز الشتويه, الدنيا يلي <gender agree='n'>حوّلي جديده</gender> بكل شي,
+ثقافه مختلفه ولغة مش مفهومه و<prep connect='y'>بنفس الوقت</prep> كنت متحمس وخايف!
+<verb prefix='n aux'>صار</verb> <verb>يدور</verb> براسي سؤال, طب وإذا ما قدرت؟
+صرت <verb>أذّكِر</verb> حالي إنه ما في <verb>رجعه</verb> قبل ما  <verb prefix='n'>أحقق</verb> هدفي.
+<verb prefix='y'>بحكو</verb> إنه <gender agree='n'>أول خطوة</gender> هي الأصعب, وإلي كان أصعب إشي ألي هو مرحله <verb prefix='n'>تعلم</verb> اللغه.
+عدّت السنين <prep connect='y'>بسرعها</prep> والطموح <adj type='none'>كبر</adj> مع السنين, .
 .خلصت مرحله البكالرويس والحمدلله الأمور ماشيه وسالكه.
 </excerpt>
+    
+<!--red verb line 42, 45-->     
 
 <excerpt>
 أنا <verb>بشتغل</verb> شوفير تكسي
