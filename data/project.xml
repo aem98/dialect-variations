@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="final_project.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../final_project.rnc" type="application/relax-ng-compact-syntax"?>
 
 <final_project>
-    
+   
 
 <!-- so far just marking verbs that use a dialect prefix or don't, marking adjectives that use a dialect structure or not, marking gender for adjectival phrases that agree or don't, and prep refers to prepositions that are getting mashed with the next word-->
 <!--need to figure out how to add attributes to these to distinguish them-->
@@ -29,8 +29,8 @@
 رد علي وقال إلي <verb>صار</verb> يا إبني وما رح <verb prefix='n'>يتغير</verb> اشي لازم الواحد <verb prefix='n'>يحمد</verb> ربه بكل الأوقات.
 كنت أطلع من كل إمتحان وحتى لو كنت مزبط كنت <verb prefix='n'>احكي</verb> ليش وكيف راحت عليّ هاي العلامة.
 بس بعد إلي صار, صرت <verb prefix='n'>احكي</verb> الحمدلله على كل اشي خير أو شر؛
-<verb prefix='n'>شوف</verb> كم من واحد مش <verb prefix='n alif'>قادر</verb> <verb>يمشي</verb>، كم واحد ما عم <verb prefix='n'>يشوف</verb>، كم واحد <verb prefix='n'>بتمنى</verb> <verb>يشوف</verb> أمه الي توفت، أو ام <verb prefix='n'>تشوف</verb> إبنها الشهيد.
-و إحنا <verb prefix='n'>يمكن</verb> مش حاسين بهدول و <verb prefix='y 3m'>عم بنفكر</verb> ب<gender agree='y'>أشياء صغيرة</gender>؛
+<verb prefix='n'>شوف</verb> كم من واحد مش <verb prefix='n, alif'>قادر</verb> <verb>يمشي</verb>، كم واحد ما عم <verb prefix='n'>يشوف</verb>، كم واحد <verb prefix='n'>بتمنى</verb> <verb>يشوف</verb> أمه الي توفت، أو ام <verb prefix='n'>تشوف</verb> إبنها الشهيد.
+و إحنا <verb prefix='n'>يمكن</verb> مش حاسين بهدول و <verb prefix='y, 3m'>عم بنفكر</verb> ب<gender agree='y'>أشياء صغيرة</gender>؛
 الحمدلله دائماً و ابداً.
 
 <!--prep and gender line 24; 2 red verbs line 29--> 
