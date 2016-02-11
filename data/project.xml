@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="final_project.rnc" type="application/relax-ng-compact-syntax"?>
-
 <final_project>
    
 
@@ -76,10 +74,35 @@
     
     <!-- and line 69 2red verbs line 67-->
     
+<excerpt>
 أنا من الكرك و<verb prefix='noun'>فاتح</verb> هاي الاستراحة من 8 سنين, القعدة هون بتجنن
 والمي متل البحر دايماً <gender agree='n'>لونها أزرق وصافية</gender>. الفطور <prep connect='n'>على الصاجية</prep>
 وكل شي <verb prefix='y'>بنستعمله</verb> مشتقات بدوية مثل <gender agree='n'>السمنة البلدي</gender>
 والزبدة وخبز الشراك بالزعتر والزيت,
-وأهم اشي بالحياة إني اعيش ولادي بالحلال.       
-    
+وأهم اشي بالحياة إني اعيش ولادي بالحلال.
+</excerpt>      
+
+<excerpt>
+كانت <gender agree='y'>حياتي عبارة</gender> عن لعب و مزح،
+ما كنت فالح بأي إشي بالحياة!
+حتى دراستي ما خلصتها وما عملت أي شي مفيد بحياتي،
+لحد ما صحيت وعقلت وبلشت <verb prefix='n'>أشتغل</verb>.
+بدت حياتي <verb prefix='n'>تتزبط</verb> وصرت إنسان عنده هدف وأهلي فخورين فيي.
+حالياً صارلي <adj type='alif'>أكثر</adj> من سنتين <verb prefix='y 3m'>عم بشتغل</verb> ومبسوط الحمدلله
+</excerpt>
+
+<excerpt>
+انا طالب حلمي <verb prefix="n">ادرس</verb> الفندقة حاولت بكل الطرق بس فيه اشياء بتوقفني,
+المدرسة عنا خرابة و <gender agree="y">جزء كبير</gender> منها انسرق مشان
+<gender agree="y">مجمعات تجارية</gender> اتخيل احنا 40 طالب والله <verb prefix="y">بنقعد</verb> <prep>على الارض</prep> و الأستاذ
+واقف <prep connect='y'>عباب</prep> الغرفة <verb prefix='y'>بشرح</verb> يعني صفوف مافي وضاغطينا.
+الواحد حاول <verb prefix='y'>يشكي</verb> بس اتبهدلت من المدير كثير لحتى استدعى اهلي,
+ورح يضل هاد حلمي و ان شاء الله <verb prefix='n'>تنحل</verb> الامور يا رب.
+</excerpt>
+
+<!--verb prep situation line 97 tag-->
+
+
+        
+
 </final_project>    
