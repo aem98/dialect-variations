@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="final_project.rnc" type="application/relax-ng-compact-syntax"?>
+
 <final_project>
    
 
@@ -139,7 +141,7 @@
 </excerpt>
     
 <excerpt>
-<verb prefix='y'>بدي</verb> <verb>أكون</verb> <adj>أصغر</adj> <gender>وزيرة أردنية</gender> شابه تمت الثلاثين سنة
+<verb prefix="y">بدي</verb> <verb>أكون</verb> <adj type="alif">أصغر</adj> <gender agree="y">وزيرة أردنية</gender> شابه تمت الثلاثين سنة
 </excerpt>
     
 <!--red verb line 142, mix adj verb line 142 gender adj line 142-->
@@ -201,5 +203,7 @@
 </excerpt>
 
 <!-- 3red verbs line 199 -->
+    
+
 
 </final_project>    
