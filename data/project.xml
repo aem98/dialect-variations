@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="final_project.rnc" type="application/relax-ng-compact-syntax"?>
 
+<?xml-model href="final_project.rnc" type="application/relax-ng-compact-syntax"?>
 <final_project>
+    
+   
    
 
 <!-- so far just marking verbs that use a dialect prefix or don't, marking adjectives that use a dialect structure or not, marking gender for adjectival phrases that agree or don't, and prep refers to prepositions that are getting mashed with the next word-->
@@ -187,7 +189,7 @@
 والمجالات الي ممكن أدخلها. وبيوم من الأيام شفت إعلان بالجريدة لكلية <gender agree="y">المركز الجغرافي الملكي</gender>  <verb prefix="n">تخصص</verb> المسح الجوي ورسم الخرائط,
 حبيت الفكرة والتخصص وحكيت لوالدي عن الموضوع <gender agree="y">بطريقة فيها</gender> مزح وما توقعت <verb prefix="n">يوافق</verb>  <prep connect="n def">على الفكرة</prep> بس الصدمة كانت لمّا وافق <prep connect="n def">على الفكرة</prep>.
 وفعلاً تاني يوم رحت أنا ووالدي على <gender agree="y">المركز الجغرافي</gender> ولفت إنتباهي المبني وحبيته <adj type="none">كتير</adj> وعرفوني <prep connect="n def">على التخصص</prep> و<adj type="none">كتير</adj> عجبني الموضوع.
-عملولي إختبار للقبول وبعد فترة وافقوا <prep connect="n indef">على دخولي</prep> للتخصص والحمد لله كنت <verb prefix="n">أجيب</verb> <gender>علامات منيحة</gender>,
+عملولي إختبار للقبول وبعد فترة وافقوا <prep connect="n indef">على دخولي</prep> للتخصص والحمد لله كنت <verb prefix="n">أجيب</verb> <gender agree="y">علامات منيحة</gender>,
 وأبدعت وإتخرجت وإشتغلت بالمركز بقسم رسم الخرائط الرقمي.
 واليوم <verb prefix="aux">صار</verb>لي عشرين سنة وانا <verb prefix="y">بشتغل</verb> بالمركز بكل حب وعطاء.
 </excerpt> 
