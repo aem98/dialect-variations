@@ -56,7 +56,7 @@
 
 <excerpt>
 أنا <verb prefix="y">بشتغل</verb> شوفير تكسي
-ومرة رحت بالتكسي على واحد من <gender agree="y">المولات المشهورة</gender> بعمان <verb prefix="n">أشتري</verb> أغراض للبيت وكنت <verb prefix="n">بدي</verb> أصف بالكراج تاع المول
+ومرة رحت بالتكسي على واحد من <gender agree="y">المولات المشهورة</gender> بعمان <verb prefix="n">أشتري</verb> أغراض للبيت وكنت <verb prefix="aux">بدي</verb> أصف بالكراج تاع المول
 ولا الأمن <verb prefix="y">بحكيلي</verb> ممنوع التكاسي يفوتو <prep connect="n def">على الكراج</prep> وخلاني أصف برة.
 طيب يعني عشان الواحد <verb prefix="n">يقدر</verb> <verb prefix="n">يروح</verb> ويجي وين ما بده لازم <verb prefix="n">يكون</verb> عنده <gender agree="y">سيارة خاصة</gender> غير التكسي؟
 وأنا <verb prefix="y">بشوف</verb> انو هذا سبب من أسباب الطبقية<gender agree="y"> بالمجتمع الأردني</gender>.
@@ -144,7 +144,7 @@
 </excerpt>
     
 <excerpt>
-<verb prefix="y">بدي</verb> <verb prefix="n">أكون</verb> <adj type="alif">أصغر</adj> <gender agree="y">وزيرة أردنية</gender> شابه تمت الثلاثين سنة
+<verb prefix="aux">بدي</verb> <verb prefix="n">أكون</verb> <adj type="alif">أصغر</adj> <gender agree="y">وزيرة أردنية</gender> شابه تمت الثلاثين سنة
 </excerpt>
     
 <!--red verb line 142, mix adj verb line 142 gender adj line 142-->
@@ -203,11 +203,33 @@
 <excerpt>
 الرياضيات, لأنه <verb prefix="y">بحب</verb> <verb prefix="n">أجمع</verb> و<verb prefix="n">أطرح</verb> و عشان <verb prefix="y">بحب</verb> <verb prefix="n">أتعلم</verb>
 و<verb prefix="n">أعرف</verb> قديش <verb prefix="aux">لازم</verb> <verb prefix="n">أجمع</verb> .
-مصاري فوق مصاريي العيد لأنه <verb prefix="n">بدي</verb> شتري سكيت.
+مصاري فوق مصاريي العيد لأنه <verb prefix="aux">بدي</verb> شتري سكيت.
 </excerpt>
 
 <!-- 3red verbs line 199 -->
-    
+  
+<excerpt>
+تربيت في بيئة كلها سكتشات ومخططات مرسومة ومبعثرة بكل مكان.
+لما كان عمري ١١ سنة، كان <verb prefix="aux">بدّي</verb> <verb prefix="n">أغير</verb> ديكور غرفتي،
+وكونه إمي مهندسة طلبت مني إني <verb prefix="n">أرسم</verb> مخطط قبل ما <verb prefix="n">أبلش</verb>،
+ضليت <verb prefix="n">أجرب</verb> و<verb prefix="n">أعيد</verb> رسمهم لحد ما زبطت معي بوحدة من المحاولات. حبيت خطوات العمل
+و حسّيت إنه في إشي جواتي <verb prefix="n 3m">عم يتحرر</verb>. عشان هيك حبيت شغل الهندسة،
+بس <verb prefix="n">تكون</verb> بطريقة مسالمة للبيئة مع لمسة فنية.
+كنت حابة إني <verb prefix="n">أنخرط</verb> بمجال <gender agree="y">التخطيط العمراني</gender>,
+كان <verb prefix="aux">عندي</verb> حلم إني <verb prefix="n">أطور</verb> الوعي والإهتمام لحتى البلاد تلتفت وتنمّي الحس المعماري
+و<verb prefix="n">يتفهموا</verb> أهميته. وللأسف <gender agree="n">الشديد المدن</gender> في
+بعض المناطق ب<gender agree="y">بساطة عبارة</gender> عن مأساة لما تقيس التخطيط العام لإلها.
+</excerpt>
+
+<excerpt>
+طواحين العقل وما <verb prefix="n">أدراك</verb> ما طواحين العقل!
+حالياً زي ما هو مبين بالأشعة,
+طواحين العقل <verb prefix="aux">عندي</verb> طالعين غلط متل نص سكان العالم
+والله لا <verb prefix="n">يورجيكم</verb> وجعهم لهيك بنصح الكل <verb prefix="n">يعمل</verb> فحص دوري للأسنان،
+لأنه إذا طلعولك غلط رح <verb prefix="n future">تضطر</verb> <verb prefix="n">تتحمل</verb> دكتور يمزع
+وجهك وهو <verb prefix="n">يخلع</verb> فيهم هيني قلتلكم ديروا بالكم!
+</excerpt>
+
 
 
 </final_project>    
