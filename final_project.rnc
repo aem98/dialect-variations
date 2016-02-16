@@ -6,7 +6,7 @@ prep = element prep {connect, text}
 adj = element adj {type, text}
 gender = element gender {agree, text} 
 prefix = attribute prefix {("y" | "n" | "3m" | "aux" | "part" | "y 3m" | "n 3m" | "n part" | "n aux")} 
-connect = attribute connect {("y" | "n" | "y def" | "n def" | "y indef" | "y def")}
+connect = attribute connect {("y" | "n" | "y def" | "n def" | "y indef" | "n indef")}
 type = attribute type {"alif" | "split" | "none"}
 agree = attribute agree {"y" | "n"} 
 
