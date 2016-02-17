@@ -16,7 +16,7 @@
 اتقاعدت من ال 2007 وكنت مرافق للطيارين.
 لما <verb prefix="n">تشوف</verb> العالم و<verb prefix="n">تروح</verb> و  <verb prefix="n">تيجي</verb> و<verb prefix="n">تتذكر</verb> هديك الأيام <verb prefix="y">بتزعل</verb>.
 هي <gender agree="y">مهنة حلوة</gender> و<verb prefix="n">ممتعة</verb> <verb prefix="y">بلحظاتها</verb>, ومؤلمة بس <verb prefix="n">تتركها</verb>.
-<verb prefix="y">بتكون</verb> قاعد مرات <prep connect="y def">عالتلفزيون</prep> <verb prefix="y">بتشوف</verb> البلاد الي زرتها و<verb prefix="y">بصير</verb> الموضوع متل شم ولا <verb prefix="n">تذوق</verb>.
+<verb prefix="y">بتكون</verb> قاعد مرات <prep connect="y def noun">عالتلفزيون</prep> <verb prefix="y">بتشوف</verb> البلاد الي زرتها و<verb prefix="y">بصير</verb> الموضوع متل شم ولا <verb prefix="n">تذوق</verb>.
    
     
 </excerpt>
@@ -57,7 +57,7 @@
 <excerpt>
 أنا <verb prefix="y">بشتغل</verb> شوفير تكسي
 ومرة رحت بالتكسي على واحد من <gender agree="y">المولات المشهورة</gender> بعمان <verb prefix="n">أشتري</verb> أغراض للبيت وكنت <verb prefix="aux">بدي</verb> أصف بالكراج تاع المول
-ولا الأمن <verb prefix="y">بحكيلي</verb> ممنوع التكاسي يفوتو <prep connect="n def">على الكراج</prep> وخلاني أصف برة.
+ولا الأمن <verb prefix="y">بحكيلي</verb> ممنوع التكاسي يفوتو <prep connect="n def noun">على الكراج</prep> وخلاني أصف برة.
 طيب يعني عشان الواحد <verb prefix="n">يقدر</verb> <verb prefix="n">يروح</verb> ويجي وين ما بده لازم <verb prefix="n">يكون</verb> عنده <gender agree="y">سيارة خاصة</gender> غير التكسي؟
 وأنا <verb prefix="y">بشوف</verb> انو هذا سبب من أسباب الطبقية<gender agree="y"> بالمجتمع الأردني</gender>.
 </excerpt>
@@ -79,7 +79,7 @@
     
 <excerpt>
 أنا من الكرك و<verb prefix="part">فاتح</verb> هاي الاستراحة من 8 سنين, القعدة هون بتجنن
-والمي متل البحر دايماً <gender agree="n">لونها أزرق وصافية</gender>. الفطور <prep connect="n def">على الصاجية</prep>
+والمي متل البحر دايماً <gender agree="n">لونها أزرق وصافية</gender>. الفطور <prep connect="n def noun">على الصاجية</prep>
 وكل شي <verb prefix="y">بنستعمله</verb> مشتقات بدوية مثل <gender agree="n">السمنة البلدي</gender>
 والزبدة وخبز الشراك بالزعتر والزيت,
 وأهم اشي بالحياة إني اعيش ولادي بالحلال.
@@ -97,8 +97,8 @@
 <excerpt>
 انا طالب حلمي <verb prefix="n">ادرس</verb> الفندقة حاولت بكل الطرق بس فيه اشياء بتوقفني,
 المدرسة عنا خرابة و <gender agree="y">جزء كبير</gender> منها انسرق مشان
-<gender agree="y">مجمعات تجارية</gender> اتخيل احنا 40 طالب والله <verb prefix="y">بنقعد</verb> <prep connect="n def">على الارض</prep> و الأستاذ
-واقف <prep connect="y indef">عباب</prep> الغرفة <verb prefix="y">بشرح</verb> يعني صفوف مافي وضاغطينا.
+<gender agree="y">مجمعات تجارية</gender> اتخيل احنا 40 طالب والله <verb prefix="y">بنقعد</verb> <prep connect="n def noun">على الارض</prep> و الأستاذ
+واقف <prep connect="y indef noun">عباب</prep> الغرفة <verb prefix="y">بشرح</verb> يعني صفوف مافي وضاغطينا.
 الواحد حاول <verb prefix="y">يشكي</verb> بس اتبهدلت من المدير كثير لحتى استدعى اهلي,
 ورح يضل هاد حلمي و ان شاء الله <verb prefix="n">تنحل</verb> الامور يا رب.
 </excerpt>
@@ -108,7 +108,7 @@
 <excerpt>
 انا <verb prefix="y">بشتغل</verb> موزع بالجملة، قبل فترة مسكوني <gender agree="y">الدوريات الخارجية</gender> وفكروني <verb prefix="y 3m">عم بهرب</verb> بضاعة!
 تعطلت يومين عبين ما أجو الجمارك و<verb prefix="n">تأكد</verb>وا انه كل أمور البضاعة تمام.
-ومن يومها <verb prefix="y">بطلت</verb> <verb prefix="n">أطلع</verb> ببضاعة غير وكل الورق تاعونها معي والحمد لله الأمور مشت <prep connect="n indef">على خير</prep>
+ومن يومها <verb prefix="y">بطلت</verb> <verb prefix="n">أطلع</verb> ببضاعة غير وكل الورق تاعونها معي والحمد لله الأمور مشت <prep connect="n indef noun ">على خير</prep>
 </excerpt>
 
 <!--red verb tag line 108-->
@@ -124,10 +124,10 @@
 <verb prefix="n aux">صار</verb> معي موقف بعمري ما بنساه،كان مضحك ومحرج وشجاع بنفس الوقت.
 كنت بصف تالت وكان عنا حفل للمدرسة وانا كنت مشاركة بفقرة بالحفلة.
 أول ما بلشت الفقرة تلبكت <adj type="none">كتير</adj> ونسيت كل الحركات تاعون الفقرة
-وكنت <verb prefix="n">أقلد</verb> البنات يلي جنبي وما كنت <verb prefix="part">ماشية</verb> <prep connect="y">عالنغمة</prep> بالمرة ويلي زاد الطين بله انه كنت
+وكنت <verb prefix="n">أقلد</verb> البنات يلي جنبي وما كنت <verb prefix="part">ماشية</verb> <prep connect="y def noun">عالنغمة</prep> بالمرة ويلي زاد الطين بله انه كنت
 في موقع مكشوف <adj type="none">كتير</adj> للجمهور وكل الناس كانت <verb prefix="n 3m">عم تطلع</verb> علي وتضحك!
-خلصت فقرتنا وحيينا الجمهور ونزلنا <prep connect="n indef">على درج</prep> المسرح،
-وأنا <verb prefix="part">نازله</verb> <prep connect="y def">عالدرج</prep> وقعت <prep connect="n indef">على وجهي</prep> قدام الكل وبوقتها ما كنت <verb prefix="part">عارفة</verb> <verb prefix="n">ابكي</verb>
+خلصت فقرتنا وحيينا الجمهور ونزلنا <prep connect="n indef noun">على درج</prep> المسرح،
+وأنا <verb prefix="part">نازله</verb> <prep connect="y def noun">عالدرج</prep> وقعت <prep connect="n indef noun">على وجهي</prep> قدام الكل وبوقتها ما كنت <verb prefix="part">عارفة</verb> <verb prefix="n">ابكي</verb>
 ولا اهرب بس حاولت <verb prefix="n">أجمع</verb> كل قواي وقمت وصرت <verb prefix="n">أضحك</verb> و<verb prefix="n">أزقف</verb> لحالي و<adj type="alif">الاحلى</adj> من هيك الجمهور كلهم وقفولي
 و<verb prefix="n aux">صار</verb>و <verb prefix="n">يزقفو</verb> معي. ردة فعلي بهداك اليوم علمتني انه لو شو ما<verb prefix="n aux">صار</verb> معي من مواقف محرجة
 او اي شيء <adj type="none">صعب</adj> بالحياة ما <verb prefix="n">استسلم</verb> و<verb prefix="n">اواجه</verb> اللي <verb prefix="n aux">صار</verb>.
@@ -167,9 +167,9 @@
 يا بي <gender agree="y">لأيام الكسارة</gender>!
 أيام ما كان سيدي <verb prefix="n">يعطيني</verb> 5 دنانير بعد ما <verb prefix="n">ينهد</verb> حيلي طول اليوم.
 هاظ إذا عجبو شغلي!
-إذا حس إنه قصرت شوي كان <verb prefix="n">يحلقلي</verb> <prep connect="n def">على الناعم</prep> وإذا شتت بالشتا فش راتب.
-كان عمري 16 سنه وقتها وكنت أنبسط <prep connect="n indef">على حالي</prep>
-لما كنت <verb prefix="n">أحمل</verb> حجار كبيرة ووزنها ثقيل وأحلى شي لما <verb prefix="n">أنام</verb> وقت الغدا تحت الفيات <prep connect="n indef">على تختعلى</prep> من الحديد! 
+إذا حس إنه قصرت شوي كان <verb prefix="n">يحلقلي</verb> <prep connect="n def noun">على الناعم</prep> وإذا شتت بالشتا فش راتب.
+كان عمري 16 سنه وقتها وكنت أنبسط <prep connect="n indef noun">على حالي</prep>
+لما كنت <verb prefix="n">أحمل</verb> حجار كبيرة ووزنها ثقيل وأحلى شي لما <verb prefix="n">أنام</verb> وقت الغدا تحت الفيات على تختعلى من الحديد! 
 </excerpt>   
     
     <!--prep verb line 165-->
@@ -177,7 +177,7 @@
 <excerpt>
 أنا مولود و<verb prefix="part">عايش</verb> بالكويت.
 حكمتي بالحياة هي عيش يومك وما <verb prefix="n">تفكر</verb> ببكرا, خاصة لمّا الواحد <verb prefix="n">يطلع</verb> من حرب و<verb prefix="n">يشوف</verb> الموت بعيونه.
-إجيت <prep connect="n indef">على عمّان</prep> بعد التحرير ودرست محاسبة <gender agree="y">للمرة التانية</gender> و<verb prefix="aux">صار</verb> معي دبلومين محاسبة,
+إجيت <prep connect="n indef noun">على عمّان</prep> بعد التحرير ودرست محاسبة <gender agree="y">للمرة التانية</gender> و<verb prefix="aux">صار</verb> معي دبلومين محاسبة,
 وحدة من الكويت والتانية من عمّان.
 الحمدلله مبسوط بشغلي, بلشت من ال 1997 بمزحة ومخاطرة, كانت قعدة مع شلة,
 كل واحد فينا <verb prefix="n">إقترح</verb> شغلة ومن وقتها فتحت أول محل متخصص ببيع البطاطا المقلية بالشرق الأوسط!
@@ -187,9 +187,9 @@
 <excerpt>
 خلصت ونجحت توجيهي وما كنت <verb prefix="part">عارفة</verb> شو رح <verb prefix="n">أتخصص</verb> وما كان <verb prefix="aux">عندي</verb> أدنى فكرة عن التخصصات 
 والمجالات الي ممكن أدخلها. وبيوم من الأيام شفت إعلان بالجريدة لكلية <gender agree="y">المركز الجغرافي الملكي</gender>  <verb prefix="n">تخصص</verb> المسح الجوي ورسم الخرائط,
-حبيت الفكرة والتخصص وحكيت لوالدي عن الموضوع <gender agree="y">بطريقة فيها</gender> مزح وما توقعت <verb prefix="n">يوافق</verb>  <prep connect="n def">على الفكرة</prep> بس الصدمة كانت لمّا وافق <prep connect="n def">على الفكرة</prep>.
-وفعلاً تاني يوم رحت أنا ووالدي على <gender agree="y">المركز الجغرافي</gender> ولفت إنتباهي المبني وحبيته <adj type="none">كتير</adj> وعرفوني <prep connect="n def">على التخصص</prep> و<adj type="none">كتير</adj> عجبني الموضوع.
-عملولي إختبار للقبول وبعد فترة وافقوا <prep connect="n indef">على دخولي</prep> للتخصص والحمد لله كنت <verb prefix="n">أجيب</verb> <gender agree="y">علامات منيحة</gender>,
+حبيت الفكرة والتخصص وحكيت لوالدي عن الموضوع <gender agree="y">بطريقة فيها</gender> مزح وما توقعت <verb prefix="n">يوافق</verb>  <prep connect="n def noun">على الفكرة</prep> بس الصدمة كانت لمّا وافق <prep connect="n def noun">على الفكرة</prep>.
+وفعلاً تاني يوم رحت أنا ووالدي على <gender agree="y">المركز الجغرافي</gender> ولفت إنتباهي المبني وحبيته <adj type="none">كتير</adj> وعرفوني <prep connect="n def noun">على التخصص</prep> و<adj type="none">كتير</adj> عجبني الموضوع.
+عملولي إختبار للقبول وبعد فترة وافقوا <prep connect="n indef noun">على دخولي</prep> للتخصص والحمد لله كنت <verb prefix="n">أجيب</verb> <gender agree="y">علامات منيحة</gender>,
 وأبدعت وإتخرجت وإشتغلت بالمركز بقسم رسم الخرائط الرقمي.
 واليوم <verb prefix="aux">صار</verb>لي عشرين سنة وانا <verb prefix="y">بشتغل</verb> بالمركز بكل حب وعطاء.
 </excerpt> 
@@ -197,7 +197,7 @@
 <!--verb gender mix up line 182 and gender verb line 185 and prep verb line 185-->
 
 <excerpt>
-أول ما مسك الثلج، <prep connect="n indef">على طول</prep> أخذت البنات و طلعت ألعبهم.
+أول ما مسك الثلج، <prep connect="n indef noun">على طول</prep> أخذت البنات و طلعت ألعبهم.
 </excerpt>
     
 <excerpt>
@@ -233,12 +233,12 @@
 <excerpt>
 كانت حياتي طبيعية متل حياة أي شب متزوج.
 <verb prefix="n">أروح</verb> الصبح عالدّوام و<verb prefix="n">أرجع</verb> العصر على بيتي <verb prefix="n">أتغدى</verb> مع مرتي وارتاح
-و<verb prefix="n">أنام</verb> هيك كان روتين حياتي اليومية. كان في <prep connect="n indef">عليّ مسؤولية</prep> بيتي ومرتي,
+و<verb prefix="n">أنام</verb> هيك كان روتين حياتي اليومية. كان في <prep connect="n indef noun">عليّ مسؤولية</prep> بيتي ومرتي,
 وزادت المسؤولية بس الله رزقني ببنتي. وقتها حسيت عنجد بالمسؤولية <adj type="alif">الأكبر</adj>
 و<adj type="alif">الأهم</adj> من هيك إني <verb prefix="aux">لازم</verb> <verb prefix="n">أوفر</verb> حياة ومستقبل <adj type="alif">أحلى</adj> و<adj type="alif">أحسن</adj> لإلها.
 صرت <verb prefix="n">أشتغل</verb> <gender agree="y">شغل خارجي</gender> و<verb prefix="n">أداوم</verb> دوام إضافي وتغيرت حياتي كُلياً,
 صارت <adj type="alif">أصعب</adj> والمسؤوليات كبرت يوم عن يوم, بس كل ما <verb prefix="n">أتذكر</verb> إنه كل هاد التعب
-عشان أ<verb prefix="n">أمن</verb> لبنتي <gender agree="y">حياة حلوة</gender> وما <verb prefix="n">أخليها</verb> تحتاج لأي شيء بهون <prep connect="n def">عليّ التعب</prep>.
+عشان أ<verb prefix="n">أمن</verb> لبنتي <gender agree="y">حياة حلوة</gender> وما <verb prefix="n">أخليها</verb> تحتاج لأي شيء بهون <prep connect="n def noun">عليّ التعب</prep>.
 ضحكتها بوجهي بس <verb prefix="n">أرجع</verb> من الدوام و<verb prefix="n">أشوفها</verb> بتنسيني الدنيا
 وما فيها وبتخليني <adj type="alif">أحس</adj> إني <adj type="alif">أسعد</adj> إنسان بالكون.
 </excerpt>
@@ -246,21 +246,47 @@
 <!--stopped adj here-->
 
 <excerpt>
-أنا من سكان <gender agree="y">منطقة الأشرفية</gender>, <verb prefix="n">بشتغل</verb> مأمور مقسم بوزارة الصحة <prep connect="n indef">على بند</prep> <gender agree="y">الحالات الإنسانية</gender> و<verb prefix="y">بصرف</verb> <prep connect="n indef">على أهلي</prep>.
-في <adj type="none">كتير</adj> صعوبات بالحياة بس الحمدلله <prep connect="n indef">على كل</prep> حال,
+أنا من سكان <gender agree="y">منطقة الأشرفية</gender>, <verb prefix="n">بشتغل</verb> مأمور مقسم بوزارة الصحة <prep connect="n indef noun">على بند</prep> <gender agree="y">الحالات الإنسانية</gender> و<verb prefix="y">بصرف</verb> <prep connect="n indef noun">على أهلي</prep>.
+في <adj type="none">كتير</adj> صعوبات بالحياة بس الحمدلله <prep connect="n indef pronoun">على كل</prep> حال,
 <verb prefix="aux">عندي</verb> مواهب وأشياء <adj type="none">كتير</adj> <verb prefix="aux">ممكن </verb><verb prefix="n">أعملها</verb> بس من <adj type="none">كتر</adj> مشاكل ومشاغل الحياة مو <verb prefix="n part">قادر</verb> أبرزها.
 بحس إنه مافي حدا <verb prefix="y">بفهمني</verb> ولا <verb prefix="y">يسمعني</verb>. الوالد ترك البيت من لمّا كان عمري 22 سنة,
 راح <verb prefix="n">تجوز</verb> <gender agree="y">وحدة تانية</gender> وبطلنا <verb prefix="n">نعرف</verb> عنه إشي,
 لا عنوان ولا تلفون الواحد <verb prefix="n">يقدر</verb> يوصله. و<verb prefix="n">أكيد</verb> هادا الموضوع أثّر علينا.
 إخواني <verb prefix="aux">عندهم</verb> مشكلة بصرية كمان, شغلتنا وراثية من جدي الله يرحمه,
 بقايا نظري <verb prefix="aux">صار</verb> تقريباً 15% يعني <verb prefix="aux">ممكن</verb> <verb prefix="n">أحدد</verb> ملامح بس بدون تفاصيل.
-كل إنسان سواء كان <verb prefix="aux">عنده</verb> إعاقة أو لأ <verb prefix="y">بتمنى</verb> <verb prefix="y">يستقر</verb>, كتبت كتابي لفترة <prep connect="n indef">على إنسانة</prep> <verb prefix="aux">عندها</verb> <gender agree="y">مشكلة بصرية</gender> بعين وحدة
+كل إنسان سواء كان <verb prefix="aux">عنده</verb> إعاقة أو لأ <verb prefix="y">بتمنى</verb> <verb prefix="y">يستقر</verb>, كتبت كتابي لفترة <prep connect="n indef noun">على إنسانة</prep> <verb prefix="aux">عندها</verb> <gender agree="y">مشكلة بصرية</gender> بعين وحدة
 وأهلها أمهلوني فترة لحتى <verb prefix="n">أرتب</verb> وضعي وكان <gender agree="n">الموضوع رغبة</gender> من والدتي,
 كانت حابة إني <verb prefix="n">أستقر</verb> رغم ظروفنا الصعبة. هاي الإنسانة ما صبرت ورفعت قضية نفقة عليِّ.
-<verb prefix="n">إعتمادي</verb> <prep connect="n indef">على رب</prep> العالمين ونفسي والحمدلله <prep connect="n indef">على كل</prep> حال.
+<verb prefix="n">إعتمادي</verb> <prep connect="n indef noun">على رب</prep> العالمين ونفسي والحمدلله <prep connect="n indef">على كل</prep> حال.
 <verb prefix="aux">عندي</verb> كتير أشياء حابب <verb prefix="n">أعملها</verb> و<verb prefix="n">أوصلها</verb> للناس, بس المشكلة إني حاسس حالي <verb prefix="n part">عايش</verb> في بلد,
 إنه الشخص يلي متلى ما إله مكان أو مجال.
 </excerpt>
+  
+<excerpt>
+بلش الموضوع لما إندليت <prep connect="y def">عالهايكنج</prep>.
+حبيته لأنه <verb prefix="y">بشمل</verb> الرياضة وحب الطبيعة,
+ومن وقتها صرت <verb prefix="n">أشوف</verb> الطبيعة بشكل آخر خصوصاً لما كنا <verb prefix="n">نروح</verb> <prep connect="n indef">على أماكن</prep> ما <verb prefix="n neg">بتوصلها</verb> السيارات.
+<verb prefix="n">إتطور</verb> الموضوع وجربنا الهايكنج الصعب,
+طلعنا جبال و<verb prefix="n">إتسلقنا</verb> صخور وبعدين <verb prefix="aux">صار</verb> في فرصة أنه <verb prefix="n">نعمل</verb> هادا الإشي <prep connect="n indef adj">على أكبر</prep>,
+دُوّلياً, وطلعت <prep connect="n indef adj">على أول</prep> <verb prefix="n part">قاعدة</verb> لإيفرست.
+<verb prefix="n">أخد</verb> معنا 14 يوم وكان بالنسبة إلي إشي كتير صعب
+وحلو بنفس الوقت لأنه كان خارج عن المألوف.
+<gender agree="y">تجربة جديدة</gender> شملت <gender agree="y">رياضة مكثفة</gender>, التكّيُف مع الطبيعة بكل حالاتها,
+بهدلة, قلة <verb prefix="n">أكسجين</verb>, مشي أقل إشي 8 ساعات يومياً,
+الفخر بالنفس لأني <verb prefix="y 3m">عم بحقق</verb> و<verb prefix="y">بعمل</verb> إشي بحياتي و<verb prefix="n">أكيد</verb> الجانب التعليمي.
+لمّا رجعنا <prep connect="n def noun">على الأردن</prep> بلشت <verb prefix="n">أفكر</verb> بالخطوة يلي بعدها,
+قررت <verb prefix="n">أعمل</verb> إشي كتير صعب وهو إني <verb prefix="n">أطلع</verb> أعلى قمة في أوروبا
+واللي هيِّ بروسيا خلال 9 أيام. كان <verb prefix="n">تحدي</verb> خرافي جداً,6 أشهر من <gender agree="y">التدريب المكثف</gender>.
+حبيت الموضوع أكتر وحالياً صارلي أسبوع راجع من أعلى قمة بافريقيا.
+هاي التجربة أثرت كتير على <gender agree="y">حياتي الخاصة</gender>,
+خصوصاً لمّا كنت <verb prefix="n">أطلع</verb> لأكتر من أسبوع <prep connect="n indef noun">على مناطق</prep> ما <verb prefix="y">بتوصلها</verb> كهربا
+ولا تليفونات ولا حتى وسائل مواصلات ولا طريق للرجعة!
+إنه حتى لو تعبت مارح <verb prefix="n">أقدر</verb> ألف و<verb prefix="n">أرجع</verb>.
+نظرتي للحياة كلها إختلفت, صرت <verb prefix="n">أقّدر</verb> كل إشي بالحياة و<verb prefix="n">أفكر</verb> بعقلانية أكتر,
+وإني <verb prefix="n">أزعل</verb> و<verb prefix="n">أعصب</verb> <verb prefix="aux">صار</verb> آخر همومي وصرت جاهز لأي نوع من التحدي.
+وشو ما مرّ <prep connect="n indef prep">عليّ من</prep> عواقب أو مشاكل صرت <verb prefix="n">أعرف</verb> كيف <verb prefix="n">أطلع</verb> عنها و<verb prefix="n">أمشي</verb> عنها, مش <verb prefix="n">أفكر</verb> بالمشكلة.
+</excerpt>
+
 
 
 </final_project>    
