@@ -8,10 +8,11 @@ body {
 }
 
 img { 
-  text-align: center;
-  border: 1px solid;
-  margin-left: auto;
-  margin-right: auto;
+
+  border: 1px solid white;
+  display: block;
+  margin: auto;
+  
 }
 
 
