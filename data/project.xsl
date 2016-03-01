@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
-    version="2.0">
+    version="2.0"
+    xmlns="http://www.w3.org/1999/xhtml">
     
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
     
@@ -12,12 +13,14 @@
                 <title>Amman</title>
             </head>
             <body>
-                <h3>Gender</h3>
+                <h3>Gender Agreement</h3>
                 <table>
                     <tr>
-                        <td>Gender Agreement</td>
+                        <th>Excerpt Number</th>
+                        <th>Yes</th>
+                        <th>No</th>
                     </tr>
-                    <xsl:apply-templates select="//excerpt/gender"/>
+                    <xsl:apply-templates select="//excerpt" mode="gender"/>
                 </table>
                 
                 <h3>Verbs</h3>
@@ -38,10 +41,20 @@
         
     </xsl:template>
     
-    <xsl:template match="excerpt/gender">
+    <xsl:template match="excerpt" mode="gender">
         <tr>
-            <td><xsl:apply-templates select="@agree"/></td>  
+            <td><xsl:value-of select="position()"/></td> 
+            <td><xsl:value-of select="count(gender[@agree='y'])"/></td>  
+            <td><xsl:value-of select="count(gender[@agree='n'])"/></td> 
         </tr>
+        <xsl:if test="position() = last()">
+            <tr>
+                <td>Total</td>
+                <td><xsl:value-of select="count(//gender[@agree='y'])"/></td>
+                <td><xsl:value-of select="count(//gender[@agree='n'])"/></td>
+            </tr>
+        </xsl:if>
+        
     </xsl:template>
     
     <xsl:template match="excerpt/verb">
