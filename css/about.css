@@ -1,0 +1,30 @@
+body {
+    background-image: url("keffiyeh.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    font-weight: bold;
+}
+    
+p {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    font-size: 125%;
+    font-weight: bold;
+}   
