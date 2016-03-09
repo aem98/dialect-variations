@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <link rel="stylesheet" type="text/css" href="css/methodology.css"/>
         <title>Methodology</title>
     </head>
     <body>
@@ -46,6 +47,55 @@
             In dialect, there’s a tendency to smash together some prepositions with their preceding nouns. 
             The point in marking these prepositions was too see when and when not elision took place 
             and how the presence of absence of a definite marker on the following noun affected this elision. 
+        </p>
+        <h2>Explaining Schema and Mark-Up</h2>
+        <p>
+            Element: Gender
+            <br></br>
+            Attribute: Agree 
+            <br></br>
+            Attribute Value: "y" | "n"
+            <ul>
+            <li>"y" = yes, noun and adjective agree in gender</li>
+            <li>"n" = no, noun and adjective did not agree in gender</li>
+            </ul>
+        <br></br>
+            Element: Verb
+            <br></br>
+            Attribute: Prefix
+            <br></br>
+            Attribute Value: "y" | "n" | "y 3m" | "n 3m" | "n future" | "y future" |
+            "n neg" | "y neg" | "n past" | "y past" | "y 2nd" | "n 2nd" | "n knt" | 
+            "y knt" | "n part" | "y part" | "n aux" | "y aux"
+            <ul>
+                <li>"y" = yes, contains b prefix</li>
+                <li>"n" = no, does not contain b prefix</li>
+                <li>"y/n 3m" = does or does not contain b prefix, after 3m* verb</li>
+                <li>"y/n future" = does or does not contain b prefix, after a future tense marker</li>
+                <li>"y/n neg" = does or does not contain b prefix, after negation</li>
+                <li>"y/n past" = does or does not contain b prefix, after a past tense marker</li>
+                <li>"y/n 2nd" = does or does not contain a b prefix, after the first verb in a sentence</li>
+                <li>"y/n knt" = does or does not contain a b prefix, after the knt* verb</li>
+                <li>"y/n part" = does or does not contain a b prefix, after a participle verb</li>
+                <li>"y/n aux" = does or does not contain a b prefix, after a auxillary verb</li>
+            </ul>
+            <em>3m verb = a verb marker that conjugates the preceding verb into a gerund, or -ing verb</em>
+            <br></br>
+            <em>knt verb = 'was', a special conjugated verb that marks the to be verb in the past tense</em>
+            <br></br>
+            <br></br>
+            <br></br>
+            Element: Preposition 
+            <br></br>
+            Attribute: Connect
+            <br></br>
+            Attribute Value: "y def" | "n def" | "y indef" | "n indef"
+            <ul>
+                <li>"y" = yes, preposition attached to preceding noun</li>
+                <li>"n" = no, preposition is not attached to preceding noun</li>
+                <li>"def" = preceding noun contains a definite prefix 'al' marker</li>
+                <li>"indef" = preceding noun does not contains a definite prefix 'al' marker</li>
+            </ul>
         </p>
     </body>
 </html>

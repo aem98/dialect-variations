@@ -4,7 +4,7 @@ excerpt = element excerpt {mixed{(verb | prep | gender)*}}
 verb = element verb {prefix, text} 
 prep = element prep {connect, text}
 gender = element gender {agree, text} 
-prefix = attribute prefix {("y" | "n" | "part" | "y 3m" | "n 3m" | "n future" | "y future" | "n neg" | "y neg" | "n past" | "y past" | "y 2nd" | "n 2nd" | "n knt" | "y knt" | "n part" | "y part" | "n aux" | "y aux")} 
+prefix = attribute prefix {("y" | "n" | "y 3m" | "n 3m" | "n future" | "y future" | "n neg" | "y neg" | "n past" | "y past" | "y 2nd" | "n 2nd" | "n knt" | "y knt" | "n part" | "y part" | "n aux" | "y aux")} 
 connect = attribute connect {("y def" | "n def" | "y indef" | "n indef")}
 agree = attribute agree {"y" | "n"} 
 
