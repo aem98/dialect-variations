@@ -960,7 +960,7 @@
     
 <excerpt>
 سافرت <prep connect="n indef">على إيطاليا</prep> من ٣٢ سنة,
-كنت حابب <gender agree="y">حياة الغربة وفكرة</gender> إني <verb prefix="n">أعتمد</verb> <gender agree="n in">على حالي</gender>.
+كنت حابب <gender agree="y">حياة الغربة وفكرة</gender> إني <verb prefix="n">أعتمد</verb> <prep connect="n indef">على حالي</prep>.
 بديت مشروعي الخاص وفتحت المطعم يلي كنت <verb prefix="y knt">بحلم</verb> فيه.
 بعد مرور السنين, حنيت لبلدي وأهلي وأصحابي،
 وخطر في بالي إني <verb prefix="n">أفتح</verb> مطعم إيطالي أصيل
@@ -1048,5 +1048,36 @@
 فهو الأرجيلة لإنها بشعة بكل جوانبها وللأسف الناس ماخدينها موضة!
 </excerpt>
     
+<excerpt>
+أنا جيت من مَصر عشان <verb prefix="n">أشتغل</verb>.
+المثل <verb prefix="y">بيقول</verb>, <verb prefix="n">إسعى</verb> يا عبدي وأنا <verb prefix="n">أسعى</verb> معاك
+</excerpt>
+    
+<excerpt>
+من طفولتي وأنا <gender agree="y">شخص إجتماعي</gender> و<verb prefix="y">بحب</verb> <gender agree="y">العلاقات الإجتماعية</gender>.
+من خلال مدرستي, <verb prefix="n">إكتشفو</verb> أساتذتي مقدرتي <prep connect="n def">على الإلقاء</prep>
+والتقديم وكتابة بعض الشيء من الشعر.
+لمّا دخلت الجامعة, الكل كان <verb prefix="n knt">يحكيلي</verb> إنه شخصيتي <verb prefix="y">بتنفع</verb> <verb prefix="n 2nd">أنزل</verb>
+<prep connect="n indef">على إنتخابات</prep> الجامعة لأنه عندي المقدرة إني <verb prefix="n">أفيد</verb> و<verb prefix="n">أساعد</verb> الطلاب.
+وفعلاً قدمت <prep connect="n def">على الإنتخابات</prep> الجامعية
+وفزت وعملت كتير من الفعاليات وحلينا كتير من المشاكل يلي بتواجه الطلبة.
+حابب بس <verb prefix="n">أتخرج</verb> إني <verb prefix="n">أشتغل</verb> بالصحافة والإعلام 
+و<verb prefix="n">أدخل</verb> فيه بمجال ميداني كوّن شخصيتي بتتناسب
+مع هاد الشيء أكثر من تخصصي (لُغات),
+حابب إني <verb prefix="n">أكون</verb> فعّال و<verb prefix="n">أخدم</verb> المجتمع
+</excerpt>
+    
+<excerpt>
+<verb prefix="n">إفتخري</verb> لإنك إمرأة، <verb prefix="n">إفتخري</verb> لإنك حوا، <verb prefix="n">إفتخري</verb> لإنك إنتِ!
+<verb prefix="n">إفتخري</verb> لإنك <verb prefix="n">أساس</verb> هالمجتمع يلي لا كان ولا رح <verb prefix="n future">يكون</verb> بدونك،
+لإنك المدرسة يلي <verb prefix="y">بِتّطلع</verb> الأجيال.
+<verb prefix="n">إفتخري</verb> لإنك رمز للإنتاجية والعطاء، ولإنه بإيدكي <verb prefix="y">بتكبر</verb> و<verb prefix="y">بتعلى</verb> الأُمم.
+<verb prefix="n">إفتخري</verb> لإنك جميلة <verb prefix="y">بتفكيرك</verb> وشكلك، ولإنه قلبك كبير.
+<verb prefix="n">إفتخر</verb> بأمك, أختك, مرتك, شريكتك, زميلتك وبنت بلدك؛
+المرأة فخر وعزة، طموح وإنتاجية، جمال وإتقان!
+حلو <verb prefix="n">نتذكر</verb> قديش المرأة مهمة بحياتنا بهاليوم ونأكد
+إنه كل يوم لازم <verb prefix="n aux">يكون</verb> مكرس لإنسانيتنا من أي جنس كنا،
+ذكر أو أنثى! يوم مرأة عالمي سعيد
+</excerpt>
 
 </final_project>    
