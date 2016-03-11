@@ -26,7 +26,26 @@
                 <h3>Verbs</h3>
              <table>
                  <tr>
-                     <xsl:apply-templates select="//excerpt/verb"/>
+                     <th>Excerpt Number</th>
+                     <th>Yes (plain verb)</th>
+                     <th>No (plain verb)</th>
+                     <th>Yes (3m)</th>
+                     <th>No (3m)</th>
+                     <th>Yes (future)</th>
+                     <th>No (future)</th>
+                     <th>Yes (past)</th>
+                     <th>No (past)</th>
+                     <th>Yes (knt)</th>
+                     <th>No (knt)</th>
+                     <th>Yes (negation)</th>
+                     <th>No (negation)</th>
+                     <th>Yes (second verb)</th>
+                     <th>No (second verb)</th>
+                     <th>Yes (participle)</th>
+                     <th>No (participle)</th>
+                     <th>Yes (auxillary)</th>
+                     <th>No (auxillary)</th>
+                     <xsl:apply-templates select="//excerpt" mode="verb"/>
                  </tr>
              </table>
                 
@@ -57,10 +76,52 @@
         
     </xsl:template>
     
-    <xsl:template match="excerpt/verb">
+    <xsl:template match="excerpt" mode="verb">
         <tr>
-            <td><xsl:apply-templates select="@prefix"/></td>  
+            <td><xsl:value-of select="position()"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y'])"/></td>  
+            <td><xsl:value-of select="count(verb[@prefix='n'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y 3m'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n 3m'])"/></td>
+            <td><xsl:value-of select="count(verb[@prefix='y future'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n future'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y past'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n past'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y knt'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n knt'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y neg'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y neg'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y 2nd'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n 2nd'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y part'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n part'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='y aux'])"/></td> 
+            <td><xsl:value-of select="count(verb[@prefix='n aux'])"/></td> 
         </tr>
+        <xsl:if test="position() = last()">
+            <tr>
+                <td>Total</td>
+                <td><xsl:value-of select="count(verb[@prefix='y'])"/></td>  
+                <td><xsl:value-of select="count(verb[@prefix='n'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y 3m'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n 3m'])"/></td>
+                <td><xsl:value-of select="count(verb[@prefix='y future'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n future'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y past'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n past'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y knt'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n knt'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y neg'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y neg'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y 2nd'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n 2nd'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y part'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n part'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='y aux'])"/></td> 
+                <td><xsl:value-of select="count(verb[@prefix='n aux'])"/></td>
+            </tr>
+        </xsl:if>
+        
     </xsl:template>
     
     <xsl:template match="excerpt/prep">
