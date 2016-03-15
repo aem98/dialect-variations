@@ -25,7 +25,7 @@
     
     <xsl:template match="gender">
         <tr>
-            <td><xsl:value-of select="parent::*/position()"/></td> 
+            <td><xsl:apply-templates select="parent::*/position()"/></td> 
             <td><xsl:apply-templates/></td>
         </tr>
     </xsl:template>
