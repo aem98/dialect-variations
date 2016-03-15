@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     color: #000000;
     background-color: #FFFFFF;
-    border: 1px solid black;
+    border: 2px solid black;
     opacity: 0.7;
     font-weight: bold;
     border-radius: 10px;
@@ -12,7 +12,7 @@ h2 {
     text-align: center;
     color: #000000;
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 2px solid black;
     opacity: 0.7;
     font-weight: bold;
     border-radius: 10px;
@@ -20,9 +20,9 @@ h2 {
     
 p {
     text-align: center;
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
     opacity: 0.7;
     font-size: 125%;
     font-weight: bold;
@@ -36,7 +36,7 @@ body {
 
 img { 
 
-  border: 1px solid white;
+  border: 2px solid black;
   display: block;
   margin: auto;
   
