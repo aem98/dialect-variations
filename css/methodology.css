@@ -1,5 +1,7 @@
 body {
     background-image: url("keffiyeh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 h1 {
