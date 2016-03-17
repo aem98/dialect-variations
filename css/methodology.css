@@ -32,3 +32,7 @@ p {
     font-weight: bold;
     border-radius: 10px;
 }   
+
+ul {
+ list-style: none;
+}
