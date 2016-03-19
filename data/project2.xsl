@@ -25,7 +25,7 @@
     
     <xsl:template match="gender">
         <tr>
-            <td><xsl:apply-templates select="parent::*/position()"/></td> 
+            <td><xsl:value-of select="parent::excerpt/count(preceding-sibling::excerpt) + 1"/></td>
             <td><xsl:apply-templates/></td>
         </tr>
     </xsl:template>
