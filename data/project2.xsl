@@ -8,7 +8,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>XSLT</title>
+                <title>Gender</title>
             </head>
             <body>
                 <h3>Gender Agreement: Non-Agreements</h3>
@@ -19,6 +19,7 @@
                     </tr>
                     <xsl:apply-templates select="//excerpt/gender[@agree='n']"/>
                 </table>
+                
             </body>
         </html>
     </xsl:template>
