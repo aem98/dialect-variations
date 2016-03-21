@@ -36,7 +36,7 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="excerpt" mode="connected">
+    <xsl:template match="prep" mode="connected">
         <tr>
             <td><xsl:value-of select="parent::excerpt/count(preceding-sibling::excerpt) + 1"/></td>
             <td><xsl:value-of select="@connect='y def'"/></td>
@@ -44,7 +44,7 @@
         </tr>
     </xsl:template>
     
-    <xsl:template match="excerpt" mode="unconnected">
+    <xsl:template match="prep" mode="unconnected">
         <tr>
             <td><xsl:value-of select="parent::excerpt/count(preceding-sibling::excerpt) + 1"/></td>
             <td><xsl:value-of select="@connect='n def'"/></td>
