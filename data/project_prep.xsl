@@ -18,7 +18,7 @@
                         <th>Connected (Definite)</th>
                         <th>Connected (Indefinite)</th>
                     </tr>
-                    <xsl:apply-templates select="//excerpt/prep[@connect]" mode="connected"/>
+                    <xsl:apply-templates select="//excerpt" mode="connected"/>
                 </table>
                 
                 <h3>Prepositions: Unconnected</h3>
@@ -28,7 +28,7 @@
                         <th>Unconnected (Definite)</th>
                         <th>Unconnected (Indefinite)</th>
                     </tr>
-                    <xsl:apply-templates select="//excerpt/prep[@connect]" mode="unconnected"/>
+                    <xsl:apply-templates select="//excerpt" mode="unconnected"/>
                 </table>
                 
                 
@@ -36,15 +36,15 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="prep" mode="connected">
+    <xsl:template match="exceprt" mode="connected">
         <tr>
             <td><xsl:value-of select="parent::excerpt/count(preceding-sibling::excerpt) + 1"/></td>
-            <td><xsl:value-of select="@connect='y def'"/></td>
-            <td><xsl:value-of select="@connect='y indef'"/></td>
+            <td><xsl:value-of select="prep[@connect='y def']"/></td>
+            <td><xsl:value-of select="prep[@connect='y indef']"/></td>
         </tr>
     </xsl:template>
     
-    <xsl:template match="prep" mode="unconnected">
+    <xsl:template match="excerpt" mode="unconnected">
         <tr>
             <td><xsl:value-of select="parent::excerpt/count(preceding-sibling::excerpt) + 1"/></td>
             <td><xsl:value-of select="@connect='n def'"/></td>
