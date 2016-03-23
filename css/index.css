@@ -5,16 +5,7 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    text-align: center;
-    color: #000000;
-    background-color: rgba(225,225,225,.5);
-    border: 2px solid black;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #000000;
     background-color: rgba(225,225,225,.5);
@@ -23,7 +14,7 @@ h2 {
     border-radius: 10px;
 }
     
-div {
+p, div {
     text-align: center;
     color: #000000;
     background-color: rgba(225,225,225,.75);
@@ -32,6 +23,16 @@ div {
     font-weight: bold;
     border-radius: 10px;
 }   
+
+table {
+    text-align: center;
+    color: #000000;
+    background-color: rgba(225,225,225,.75);
+    border: 2px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    border-radius: 10px;
+} 
 
 ul {
  list-style: none;
