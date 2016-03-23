@@ -46,4 +46,34 @@ img {
   
 }
 
+ul [about='menu'] {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(225,225,225,.5);
+    overflow: hidden;
 
+}
+
+li [about='menu'] {
+    float: left;
+}
+
+a [about='menu'] {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+li a [about='menu']{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover [about='menu'] {
+    background-color: #111;
+}
