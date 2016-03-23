@@ -1,9 +1,15 @@
+body {
+    background-image: url("keffiyeh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 h1 {
     text-align: center;
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: rgba(225,225,225,.5);
     border: 2px solid black;
-    opacity: 0.7;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -11,31 +17,26 @@ h1 {
 h2 {
     text-align: center;
     color: #000000;
-    background-color: #ffffff;
+    background-color: rgba(225,225,225,.5);
     border: 2px solid black;
-    opacity: 0.7;
     font-weight: bold;
     border-radius: 10px;
 }
     
 p {
     text-align: center;
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: rgba(225,225,225,.75);
     border: 2px solid black;
-    opacity: 0.7;
     font-size: 125%;
     font-weight: bold;
     border-radius: 10px;
-}    
+}   
 
-body {
-    background-image: url("keffiyeh.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+ul {
+ list-style: none;
 }
+
 
 img { 
 
