@@ -51,13 +51,13 @@ ul [about='menu'] {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(225,225,225,.5);
+    background-color: rgba(225,225,225,.75);
     overflow: hidden;
 
 }
 
 li [about='menu'] {
-    float: left;
+    display: inline;
 }
 
 a [about='menu'] {
@@ -74,7 +74,18 @@ li a [about='menu']{
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover [about='menu'] {
-    background-color: #111;
+    background-color: white;
+}
+
+.active {
+    background-color: red;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
