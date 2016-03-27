@@ -51,26 +51,26 @@ ul [about='menu'] {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(225,225,225,.75);
     overflow: hidden;
-
 }
 
 li [about='menu'] {
     display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
 }
 
 a [about='menu'] {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 12px;
+    color: black;
 }
 
 li a [about='menu']{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 24px;
     text-decoration: none;
 }
 
@@ -78,14 +78,10 @@ li a:hover [about='menu'] {
     background-color: white;
 }
 
-.active {
+.active [about='menu']{
     background-color: red;
 }
 
-li {
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
+li:last-child [about='menu']{
     border-right: none;
 }
