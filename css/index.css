@@ -22,6 +22,7 @@ p, div {
     font-size: 125%;
     font-weight: bold;
     border-radius: 10px;
+    line-height: 25px;
 }   
 
 table {
@@ -47,41 +48,8 @@ img {
   
 }
 
-ul [about='menu'] {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li [about='menu'] {
-    display: inline;
-    float: left;
-    border-right: 1px solid #bbb;
-}
-
-a [about='menu'] {
-    display: block;
-    padding: 12px;
-    color: black;
-}
-
-li a [about='menu']{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 24px;
-    text-decoration: none;
-}
-
-li a:hover [about='menu'] {
-    background-color: white;
-}
-
-.active [about='menu']{
-    background-color: red;
-}
-
-li:last-child [about='menu']{
-    border-right: none;
-}
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    }
+    
