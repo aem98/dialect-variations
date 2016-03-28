@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
     
-p, div {
+div {
     text-align: center;
     color: #000000;
     background-color: rgba(225,225,225,.75);
@@ -36,7 +36,7 @@ table {
 } 
 
 ul {
- list-style: none;
+    list-style: none;
 }
 
 
