@@ -63,3 +63,37 @@ a.menu {
 li a.menu:hover {
     background-color: white;
 }
+
+li a, .drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.drop {
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.drop:hover .dropdown {
+    display: block;
+}
