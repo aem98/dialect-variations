@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #000000;
-    background-color: rgba(225,225,225,.5);
+    background-color: rgba(225,225,225,.8);
     border: 2px solid black;
     font-weight: bold;
     border-radius: 10px;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 div {
     text-align: center;
     color: #000000;
-    background-color: rgba(225,225,225,.75);
+    background-color: rgba(225,225,225,.8);
     border: 2px solid black;
     font-size: 125%;
     font-weight: bold;
@@ -28,7 +28,7 @@ div {
 table {
     text-align: center;
     color: #000000;
-    background-color: rgba(225,225,225,.75);
+    background-color: rgba(225,225,225,.8);
     border: 2px solid black;
     font-size: 125%;
     font-weight: bold;
@@ -51,5 +51,15 @@ img {
 ul.menu {
     display: flex;
     flex-direction: row;
+    border: 2px solid black;
     }
     
+a.menu {
+    display: block;
+    padding: 8px;
+    color: black;
+}
+
+li a.menu:hover {
+    background-color: white;
+}
