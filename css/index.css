@@ -69,21 +69,21 @@ a.drop {
     display: block;
     padding: 8px;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgba(225,225,225,.98);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(225,225,225,.9);
     text-align: center;
 }
 
-.dropdown a:hover {background-color: rgba(225,225,225,.9)}
+.dropdown a:hover {background-color: white}
 
-.drop a:hover {background-color: rgba(0,0,0,0.2)}
+.drop a:hover {background-color: white}
 
 .drop:hover .dropdown {
     display: block;
