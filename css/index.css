@@ -20,9 +20,10 @@ div {
     background-color: rgba(225,225,225,.9);
     border: 2px solid black;
     font-size: 125%;
-    font-weight: bold;
+    font-weight: 600;
     border-radius: 10px;
     line-height: 25px;
+    padding: 20px;
 }   
 
 table {
@@ -65,16 +66,10 @@ li a.menu:hover {
     background-color: #f9f9f9;
 }
 
-li a, .drop {
-    display: inline-block;
+a.drop {
+    display: block;
+    padding: 8px;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li.drop {
-    display: inline-block;
     text-align: center;
 }
 
@@ -87,15 +82,9 @@ li.drop {
     text-align: center;
 }
 
-.dropdown a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-
 .dropdown a:hover {background-color: rgba(225,225,225,.9)}
+
+.drop a:hover {background-color: rgba(0,0,0,0.2)}
 
 .drop:hover .dropdown {
     display: block;
