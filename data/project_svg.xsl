@@ -43,8 +43,8 @@
         <svg height="375">
             <g transform="translate(30, 330)">
                 <line x1="20" x2="20" y1="0" y2="-320" stroke="black" stroke-width="1"/>
-                <line x1="20" x2="1550" y1="0" y2="0" stroke="black" stroke-width="1"/>
-                <line x1="{20}" x2="1550" y1="-150" y2="-150" stroke="black" opacity="0.5"
+                <line x1="20" x2="700" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                <line x1="{20}" x2="700" y1="-150" y2="-150" stroke="black" opacity="0.5"
                     stroke-dasharray="8 4" stroke-width="1"/>
                 <text x="10" y="5" text-anchor="end">0%</text>
                 <text x="10" y="-145" text-anchor="end">50%</text>
@@ -69,7 +69,7 @@
                 <text x='390' y='25'>negation</text>
             <rect x='460' y='-300' height='300' fill='blue' width='50' stroke='black'/>    
             <rect x='460' y='-{$pert_y_2nd *3}' height='{$pert_y_2nd *3}' fill='red' width='50' stroke='black'/>
-                <text x='460' y='25'>second verb</text>
+                <text x='460' y='25'>2nd verb</text>
             <rect x='530' y='-300' height='300' fill='blue' width='50' stroke='black'/>    
             <rect x='530' y='-{$pert_y_part *3}' height='{$pert_y_part *3}' fill='red' width='50' stroke='black'/>
                 <text x='530' y='25'>participle</text>

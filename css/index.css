@@ -89,3 +89,10 @@ a.drop {
 .drop:hover .dropdown {
     display: block;
 }
+
+svg{
+  width:1000px;
+}
+#wrapper{
+  overflow-x:scroll;
+}
