@@ -57,7 +57,7 @@ table.left1 {
     font-weight: 600;
     border-radius: 10px;
     float: left;
-        width: 50%;
+    width: 50%;
 } 
 
 table.center2 {
@@ -68,7 +68,8 @@ table.center2 {
     font-size: 125%;
     font-weight: 600;
     border-radius: 10px;
-        width: 33%;
+    float: left;
+    width: 33.3%;
 } 
 
 table.left2 {
@@ -80,7 +81,7 @@ table.left2 {
     font-weight: 600;
     border-radius: 10px;
     float: left;
-        width: 33%;
+    width: 33.3%;
 } 
 
 table.right2 {
@@ -91,8 +92,8 @@ table.right2 {
     font-size: 125%;
     font-weight: 600;
     border-radius: 10px;
-    float: right;
-        width: 33%;
+    float: left;
+        width: 33.3%;
 } 
 
 
