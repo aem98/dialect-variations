@@ -3,13 +3,14 @@ window.addEventListener("DOMContentLoaded", init, false);
 function init(){
     var clickables = document.getElementsByClassName("clickable");
     for (var i = 0; i < clickables.length; i++){
-        clickables[i].addEventListener("click", sendRequest(this.className.split(' '), this.innerHTML), false)
+        clickables[i].addEventListener("click", sendRequest(this.className, this.innerHTML), false)
         console.log("1");
     }
 }
 
-function sendRequest(id, excerptNum){
-    id = id[1];
+function sendRequest(c, excerptNum){
+    ids = c.split(' ');
+    id = ids[1]
     console.log("2");
     // request to server
     var req;
