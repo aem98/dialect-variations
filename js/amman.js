@@ -3,19 +3,14 @@ window.addEventListener('DOMContentLoaded', init, false);
 function init(){
     var clickables = document.getElementsByClassName("clickable conDef");
     for (var i = 0; i < clickables.length; i++){
-        //clickables[i].addEventListener('click', sendRequest(this.className, this.innerHTML), false)
-        clickables[i].onclick = show_message;
+        clickables[i].addEventListener('click', sendRequest, false)
         console.log("1");
     }
 }
 
-function show_message(){
-    alert(this.className + " " + this.innerHTML);
-}
-
-function sendRequest(c, excerptNum){
-    ids = String(c).split(' ');
-    id = ids[1]
+function sendRequest(){
+    id = this.className.split(' ')[1];
+    excerptNum = this.innerHTML;
     console.log("2");
     // request to server
     /*var req;
@@ -44,5 +39,5 @@ function sendRequest(c, excerptNum){
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
     };*/
-    alert(this.className + " " + id + " " + this.innerHTML);
+    alert(id + " " + excerptNum);
 }
