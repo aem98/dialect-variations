@@ -39,5 +39,5 @@ function sendRequest(c, excerptNum){
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
     };*/
-    selectedP.innerHTML = id + excerptNum;
+    alert(c + " " + id + " " + excerptNum);
 }
