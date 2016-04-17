@@ -15,6 +15,7 @@ function sendRequest(c, excerptNum){
     // request to server
     var req;
     if(window.XMLHttpRequest){
+        console.log("not IE");
         req = new XMLHttpRequest();
     } else{
     // for IE5, IE6
