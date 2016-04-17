@@ -13,7 +13,7 @@ function sendRequest(){
     excerptNum = this.innerHTML;
     console.log("2");
     // request to server
-    /*var req;
+    var req;
     if(window.XMLHttpRequest){
         console.log("not IE");
         req = new XMLHttpRequest();
@@ -22,10 +22,10 @@ function sendRequest(){
         req = new ActiveXObject("Microsoft.XMLHTTP");
     }
     console.log("3");
-    // p to display excerpt*/
+    // p to display excerpt
     var selectedP = document.getElementById(id);
     console.log("4");
-    /*req.open("GET", "../data/project.xml", true);
+    req.open("GET", "../data/project.xml", true);
     req.send();
     console.log("5");
     req.onreadystatechangte = function(){
@@ -38,6 +38,5 @@ function sendRequest(){
             // display excerpt in div
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
-    };*/
-    alert(id + " " + excerptNum);
+    };
 }
