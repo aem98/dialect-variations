@@ -22,10 +22,10 @@ function sendRequest(c, excerptNum){
         req = new ActiveXObject("Microsoft.XMLHTTP");
     }
     console.log("3");
-    // p to display excerpt
+    // p to display excerpt*/
     var selectedP = document.getElementById(id);
     console.log("4");
-    req.open("GET", "../data/project.xml", true);
+    /*req.open("GET", "../data/project.xml", true);
     req.send();
     console.log("5");
     req.onreadystatechangte = function(){
