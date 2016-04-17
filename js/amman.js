@@ -21,8 +21,8 @@ function sendRequest(id){
 }
 
 function getExcerpt(id){
-    // div to display excerpt
-    var selectedDiv = document.getElementById(id.substring(0, id.length - 4));
+    // p to display excerpt
+    var selectedP = document.getElementById(id.substring(1, id.length - 4));
     // excerpt number
     var excerptNum = id.substring(id.length - 4, id.length);
 
@@ -32,7 +32,7 @@ function getExcerpt(id){
         // gets excerpts from XML
         var excerpts = xmlSource.getElementsByTagName("excerpt");
         // display excerpt in div
-        selectedDiv.innerHTML = "<p>" + excerpts[excerptNum].innerHTML + "</p>";
+        selectedP.innerHTML = excerpts[excerptNum].innerHTML;
     }
     req.open("GET", "../data/project.xml", true);
     req.send();
