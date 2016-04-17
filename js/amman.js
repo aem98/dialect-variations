@@ -4,9 +4,13 @@ function init(){
     var clickables = document.getElementsByClassName("clickable conDef");
     for (var i = 0; i < clickables.length; i++){
         //clickables[i].addEventListener('click', sendRequest(this.className, this.innerHTML), false)
-        clickables[i].onclick = sendRequest(this.className, this.innerHTML);
+        clickables[i].onclick = show_message;
         console.log("1");
     }
+}
+
+function show_message(){
+    alert("adf");
 }
 
 function sendRequest(c, excerptNum){
