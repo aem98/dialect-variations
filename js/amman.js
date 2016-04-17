@@ -25,8 +25,8 @@ function sendRequest(){
     // p to display excerpt
     var selectedP = document.getElementById(id);
     console.log("4");
-    req.onreadystatechangte = function(){
-    console.log("5");
+    req.onreadystatechange = function(){
+        console.log("5");
         // request finished/response ready, status ok
         if(req.readyState == 4 && req.status == 200){
             console.log("7");
