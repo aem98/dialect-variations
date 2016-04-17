@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
     
 div {
-    text-align: center;
+    text-align: left;
     color: #000000;
     background-color: rgba(225,225,225,.95);
     border: 2px solid black;
@@ -23,6 +23,8 @@ div {
     font-weight: 600;
     border-radius: 10px;
     line-height: 25px;
+    padding: 10px;
+    
 }   
 
 table {
@@ -100,6 +102,12 @@ table.right2 {
         width: 33.3%;
 } 
 
+table.example {
+    text-align: center;
+        margin-left: auto;
+    margin-right: auto;
+}
+
 
 ul {
     list-style: none;
@@ -125,10 +133,11 @@ a.menu {
     padding: 8px;
     color: black;
     text-align: center;
+    text-decoration: none;
 }
 
 li a.menu:hover {
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 a.drop {
@@ -136,6 +145,7 @@ a.drop {
     padding: 8px;
     color: black;
     text-align: left;
+    text-decoration: none;
 }
 
 .dropdown {
