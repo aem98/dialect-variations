@@ -13,7 +13,7 @@ function sendRequest(c, excerptNum){
     id = ids[1]
     console.log("2");
     // request to server
-    var req;
+    /*var req;
     if(window.XMLHttpRequest){
         console.log("not IE");
         req = new XMLHttpRequest();
@@ -38,5 +38,6 @@ function sendRequest(c, excerptNum){
             // display excerpt in div
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
-    };
+    };*/
+    selectedP.innerHTML = id + excertpNum;
 }
