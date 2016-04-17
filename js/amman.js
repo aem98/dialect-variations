@@ -3,11 +3,11 @@ window.addEventListener("DOMContentLoaded", init, false);
 function init(){
     var clickables = document.getElementsbyClassName("clickable");
     for (var i = 0; i < clickables.length; i++){
-        clickables[i].addEventListener("click", sendRequest(this.id), false)
+        clickables[i].addEventListener("click", sendRequest(this.className.split(' ')[1], this.innerHTML), false)
     }
 }
 
-function sendRequest(id){
+function sendRequest(id, excerptNum){
     // request to server
     var req;
     if(window.XMLHttpRequest){
@@ -17,14 +17,14 @@ function sendRequest(id){
         req = new ActiveXObject("Microsoft.XMLHTTP");
     }
     
-    req.onreadystatechangte = getExcerpt(id);
+    req.onreadystatechangte = getExcerpt(id, excerptNum);
+    req.open("GET", "../data/project.xml", true);
+    req.send();
 }
 
-function getExcerpt(id){
+function getExcerpt(id, excerptNum){
     // p to display excerpt
-    var selectedP = document.getElementById(id.substring(1, id.length - 4));
-    // excerpt number
-    var excerptNum = id.substring(id.length - 4, id.length);
+    var selectedP = document.getElementById(id);
 
     // request finished/response ready, status ok
     if(req.readyState == 4 && req.status == 200){
@@ -34,6 +34,4 @@ function getExcerpt(id){
         // display excerpt in div
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
     }
-    req.open("GET", "../data/project.xml", true);
-    req.send();
 }
