@@ -39,5 +39,5 @@ function sendRequest(c, excerptNum){
         selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
     };*/
-    alert(c + " " + id + " " + excerptNum);
+    alert(this.className + " " + id + " " + this.innerHTML);
 }
