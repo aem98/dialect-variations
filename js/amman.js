@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', init, false);
 
 function init(){
-    var clickables = document.getElementsByClassName("clickable");
+    var clickables = document.getElementsByClassName("clickable conDef");
     for (var i = 0; i < clickables.length; i++){
         clickables[i].addEventListener('click', sendRequest(this.className, this.innerHTML), false)
         console.log("1");
