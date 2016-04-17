@@ -21,25 +21,21 @@ function sendRequest(c, excerptNum){
         req = new ActiveXObject("Microsoft.XMLHTTP");
     }
     console.log("3");
-    req.onreadystatechangte = getExcerpt(id, excerptNum);
+    // p to display excerpt
+    var selectedP = document.getElementById(id);
+    req.onreadystatechangte = function(){
+        // request finished/response ready, status ok
+        if(req.readyState == 4 && req.status == 200){
+            console.log("7");
+            xmlSource = req.responseXML;
+            // gets excerpts from XML
+            var excerpts = xmlSource.getElementsByTagName("excerpt");
+            // display excerpt in div
+        selectedP.innerHTML = excerpts[excerptNum].innerHTML;
+        }
+    };
     console.log("4");
     req.open("GET", "../data/project.xml", true);
     req.send();
     console.log("5");
-}
-
-function getExcerpt(id, excerptNum){
-    console.log("6");
-    // p to display excerpt
-    var selectedP = document.getElementById(id);
-
-    // request finished/response ready, status ok
-    if(req.readyState == 4 && req.status == 200){
-        console.log("7");
-        xmlSource = req.responseXML;
-        // gets excerpts from XML
-        var excerpts = xmlSource.getElementsByTagName("excerpt");
-        // display excerpt in div
-        selectedP.innerHTML = excerpts[excerptNum].innerHTML;
-    }
 }
