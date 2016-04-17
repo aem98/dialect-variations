@@ -9,7 +9,7 @@ function init(){
 }
 
 function sendRequest(c, excerptNum){
-    ids = c.split(' ');
+    ids = String(c).split(' ');
     id = ids[1]
     console.log("2");
     // request to server
