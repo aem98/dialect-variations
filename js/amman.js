@@ -25,8 +25,6 @@ function sendRequest(){
     // p to display excerpt
     var selectedP = document.getElementById(id);
     console.log("4");
-    req.open("GET", "../data/project.xml", true);
-    req.send();
     console.log("5");
     req.onreadystatechangte = function(){
         // request finished/response ready, status ok
@@ -39,4 +37,6 @@ function sendRequest(){
             selectedP.innerHTML = excerpts[excerptNum];
         }
     };
+    req.open("GET", "../data/project.xml", true);
+    req.send();
 }
