@@ -10,7 +10,7 @@ function init(){
 }
 
 function show_message(){
-    alert(this.className);
+    alert(this.className + " " + this.innerHTML);
 }
 
 function sendRequest(c, excerptNum){
