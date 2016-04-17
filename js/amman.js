@@ -34,7 +34,7 @@ function sendRequest(){
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
             // display excerpt in p
-            selectedP.innerHTML = excerpts[excerptNum];
+            selectedP.innerHTML = excerpts[excerptNum].innerHTML;
         }
     };
     req.open("GET", "../data/project.xml", true);
