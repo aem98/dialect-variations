@@ -4,13 +4,13 @@ function init(){
     var clickables = document.getElementsByClassName("clickable conDef");
     for (var i = 0; i < clickables.length; i++){
         //clickables[i].addEventListener('click', sendRequest(this.className, this.innerHTML), false)
-        clickables[i].onclick = show_message(this.className);
+        clickables[i].onclick = show_message;
         console.log("1");
     }
 }
 
-function show_message(e){
-    alert(e);
+function show_message(){
+    alert(this.className);
 }
 
 function sendRequest(c, excerptNum){
