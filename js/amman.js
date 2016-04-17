@@ -35,8 +35,8 @@ function sendRequest(){
             xmlSource = req.responseXML;
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
-            // display excerpt in div
-        selectedP.innerHTML = excerpts[excerptNum].innerHTML;
+            // display excerpt in p
+            selectedP.innerHTML = excerpts[excerptNum];
         }
     };
 }
