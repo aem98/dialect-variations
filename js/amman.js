@@ -29,7 +29,7 @@ function sendRequest(){
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
             // display excerpt in p
-            selectedP..createAttribute("dir") = "rtl";
+            selectedP.createAttribute("dir") = "rtl";
             selectedP.innerHTML = excerpts[excerptNum - 1].textContent;
         }
     };
