@@ -11,6 +11,7 @@ function sendRequest(){
     var id = this.className.split(' ')[1];
     var excerptNum = this.innerHTML;
     var word = this.nextSibling.textContent;
+    console.log(word);
     
     // request to server
     var req;
