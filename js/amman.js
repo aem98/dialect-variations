@@ -10,7 +10,7 @@ function init(){
 function sendRequest(){
     var id = this.className.split(' ')[1];
     var excerptNum = this.innerHTML;
-    var word = this.nextSibling.textContent;
+    var word = this.nextSibling;
     console.log(word);
     
     // request to server
