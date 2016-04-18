@@ -28,8 +28,11 @@ function sendRequest(){
             xmlSource = req.responseXML;
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
+            // create attribute for right to left text
+            var att = createAttribute("dir");
+            att = "rtl";
+            selectedP.setAttributeNode(att);
             // display excerpt in p
-            selectedP.createAttribute("dir") = "rtl";
             selectedP.innerHTML = excerpts[excerptNum - 1].textContent;
         }
     };
