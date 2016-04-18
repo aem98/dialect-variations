@@ -9,7 +9,7 @@ function init(){
 
 function sendRequest(){
     var data = this.childNodes;
-    var id = data[1].className.split(' ')[1];
+    var id = this.className.split(' ')[1];
     var excerptNum = data[1].innerHTML;
     var word = data[2].textContent;
     console.log(word);
