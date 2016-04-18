@@ -24,6 +24,7 @@ div {
     border-radius: 10px;
     line-height: 25px;
     padding: 10px;
+    overflow: auto;
     
 }   
 
@@ -39,7 +40,7 @@ table {
 
 .map {
     float: right;
-margin: 10px;
+    margin: 10px;
 }
 
 div.right {
@@ -174,6 +175,6 @@ a.drop {
 svg{
   width:1000px;
 }
-#wrapper{
-  overflow-x:scroll;
+.wrapper{
+  font-size: 100%;
 }
