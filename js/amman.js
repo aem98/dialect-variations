@@ -29,7 +29,7 @@ function sendRequest(){
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
             // create attribute for right to left text
-            var att = createAttribute("dir");
+            var att = document.createAttribute("dir");
             att = "rtl";
             selectedP.setAttributeNode(att);
             // display excerpt in p
