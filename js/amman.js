@@ -8,10 +8,10 @@ function init(){
 }
 
 function sendRequest(){
-    var data = this.childNodes;
+    var data = this.getElementsByTagName("td");
     var id = this.className.split(' ')[1];
-    var excerptNum = data[1].innerHTML;
-    var word = data[2].textContent;
+    var excerptNum = data[0].textContent;
+    var word = data[1].textContent;
     console.log(word);
     
     // request to server
