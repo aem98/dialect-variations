@@ -37,6 +37,11 @@ table {
     border-radius: 10px;
 } 
 
+.map {
+    float: right;
+margin: 10px;
+}
+
 div.right {
     float: right;
 }
