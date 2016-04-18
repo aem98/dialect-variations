@@ -12,7 +12,6 @@ function sendRequest(){
     var id = this.className.split(' ')[1];
     var excerptNum = data[0].textContent;
     var word = data[1].textContent;
-    console.log(word);
     
     // request to server
     var req;
@@ -41,7 +40,7 @@ function sendRequest(){
             selectedP.setAttributeNode(align);
             // highlight word
             
-            var spanWord = "<span style='background-color:red'>" + word + "</span>";
+            var spanWord = "<span style='background-color:yellow'>" + word + "</span>";
             var excerptText = excerpts[excerptNum - 1].textContent;
             excerptText = excerptText.slice(0, excerptText.indexOf(word)) + spanWord + excerptText.slice(excerptText.indexOf(word) + word.length);
             // display excerpt in p
