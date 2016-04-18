@@ -8,8 +8,9 @@ function init(){
 }
 
 function sendRequest(){
-    id = this.className.split(' ')[1];
-    excerptNum = this.innerHTML;
+    var id = this.className.split(' ')[1];
+    var excerptNum = this.innerHTML;
+    var word = this.nextSibling.textContent;
     
     // request to server
     var req;
@@ -37,7 +38,7 @@ function sendRequest(){
             align.value = "text-align:right";
             selectedP.setAttributeNode(align);
             // highlight word
-            var word = this.nextSibling.textContent;
+            
             var spanWord = "<span style='background-color:red'>" + word + "</span>";
             var excerptText = excerpts[excerptNum - 1].textContent;
             excerptText = excerptText.slice(0, excerptText.indexOf(word)) + spanWord + excerptText.slice(excerptText.indexOf(word) + word.length);
