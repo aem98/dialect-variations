@@ -36,8 +36,13 @@ function sendRequest(){
             var align = document.createAttribute("style");
             align.value = "text-align:right";
             selectedP.setAttributeNode(align);
+            // highlight word
+            var word = this.nextSibling.textContent;
+            var spanWord = "<span style='background-color:red'>" + word + "</span>";
+            var excerptText = excerpts[excerptNum - 1].textContent;
+            excerptText = excerptText.slice(0, excerptText.indexOf(word)) + spanWord + excerptText.slice(excerptText.indexOf(word) + word.length);
             // display excerpt in p
-            selectedP.innerHTML = excerpts[excerptNum - 1].textContent;
+            selectedP.innerHTML = excerptText;
         }
     };
     req.open("GET", "../data/project.xml", true);
