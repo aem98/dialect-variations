@@ -29,9 +29,13 @@ function sendRequest(){
             // gets excerpts from XML
             var excerpts = xmlSource.getElementsByTagName("excerpt");
             // create attribute for right to left text
-            var att = document.createAttribute("dir");
-            att.value = "rtl";
-            selectedP.setAttributeNode(att);
+            var direction = document.createAttribute("dir");
+            direction.value = "rtl";
+            selectedP.setAttributeNode(direction);
+            // right align
+            var align = document.createAttribute("style");
+            align.value = "text-align:right";
+            selectedP.setAttributeNode(align);
             // display excerpt in p
             selectedP.innerHTML = excerpts[excerptNum - 1].textContent;
         }
