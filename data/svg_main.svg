@@ -36,7 +36,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="40" y="25">plain</text>
+      <text x="40" y="25" text-anchor="start">plain</text>
       <rect x="110"
             y="-300"
             height="300"
@@ -49,7 +49,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="110" y="25">3m</text>
+         <text x="110" y="25" text-anchor="start">3m</text>
       <rect x="180"
             y="-300"
             height="300"
@@ -62,7 +62,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="180" y="25">future</text>
+         <text x="180" y="25" text-anchor="start">future</text>
       <rect x="250"
             y="-300"
             height="300"
@@ -75,7 +75,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="250" y="25">past</text>
+         <text x="250" y="25" text-anchor="start">past</text>
       <rect x="320"
             y="-300"
             height="300"
@@ -88,7 +88,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="320" y="25">knt</text>
+         <text x="320" y="25" text-anchor="start">knt</text>
       <rect x="390"
             y="-300"
             height="300"
@@ -101,7 +101,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="390" y="25">negation</text>
+         <text x="390" y="25" text-anchor="start">negation</text>
       <rect x="460"
             y="-300"
             height="300"
@@ -114,7 +114,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="460" y="25">2nd verb</text>
+         <text x="460" y="25" text-anchor="start">2nd verb</text>
       <rect x="530"
             y="-300"
             height="300"
@@ -127,7 +127,7 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="530" y="25">participle</text>
+         <text x="530" y="25" text-anchor="start">participle</text>
       <rect x="600"
             y="-300"
             height="300"
@@ -140,6 +140,6 @@
             fill="red"
             width="50"
             stroke="black"/>
-      <text x="600" y="25">auxillery</text>
+         <text x="600" y="25" text-anchor="start">auxillery</text>
    </g>
 </svg>

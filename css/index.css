@@ -173,8 +173,10 @@ a.drop {
 }
 
 svg{
-  width:1000px;
+  width:750px;
 }
+
 .wrapper{
   font-size: 100%;
+  text-align: center;
 }
