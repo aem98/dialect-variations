@@ -10,11 +10,26 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title></title>
+                <title>Jordanian Arabic | Excerpts</title>
             </head>
             <body>
+                <h3>Excerpts</h3>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Number</th>
+                    </tr>
+                <xsl:apply-templates select="//final_project"/>
+                </table>
             </body>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="final_project">
+        <tr>
+            <td><xsl:value-of select="position()"/></td> 
+            <td><xsl:value-of select="//excerpt"/></td>
+        </tr>
     </xsl:template>
     
 </xsl:stylesheet>
