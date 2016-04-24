@@ -14,22 +14,17 @@
             </head>
             <body>
                 <h3>Excerpts</h3>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Number</th>
-                    </tr>
-                <xsl:apply-templates select="//final_project"/>
-                </table>
+                <xsl:apply-templates select="//excerpt"/>
             </body>
         </html>
     </xsl:template>
     
-    <xsl:template match="final_project">
-        <tr>
-            <td><xsl:value-of select="position()"/></td> 
-            <td><xsl:value-of select="//excerpt"/></td>
-        </tr>
+    <xsl:template match="excerpt">
+        <xsl:for-each select="//excerpt">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+        </xsl:for-each>
     </xsl:template>
     
 </xsl:stylesheet>
