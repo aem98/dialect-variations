@@ -33,7 +33,7 @@
       <rect x="40"
             y="-83.0303030303030304"
             height="83.0303030303030304"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
       <text x="40" y="25" text-anchor="start">plain</text>
@@ -46,7 +46,7 @@
       <rect x="110"
             y="-141.1764705882352941"
             height="141.1764705882352941"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="110" y="25" text-anchor="start">3m</text>
@@ -59,7 +59,7 @@
       <rect x="180"
             y="-0"
             height="0"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="180" y="25" text-anchor="start">future</text>
@@ -72,7 +72,7 @@
       <rect x="250"
             y="-16.6666666666666668"
             height="16.6666666666666668"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="250" y="25" text-anchor="start">past</text>
@@ -85,7 +85,7 @@
       <rect x="320"
             y="-58.3333333333333332"
             height="58.3333333333333332"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="320" y="25" text-anchor="start">knt</text>
@@ -98,7 +98,7 @@
       <rect x="390"
             y="-73.4693877551020407"
             height="73.4693877551020407"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="390" y="25" text-anchor="start">negation</text>
@@ -111,7 +111,7 @@
       <rect x="460"
             y="-38.1818181818181819"
             height="38.1818181818181819"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="460" y="25" text-anchor="start">2nd verb</text>
@@ -124,7 +124,7 @@
       <rect x="530"
             y="-0"
             height="0"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="530" y="25" text-anchor="start">participle</text>
@@ -137,7 +137,7 @@
       <rect x="600"
             y="-8.5714285714285713"
             height="8.5714285714285713"
-            fill="red"
+            fill="yellow"
             width="50"
             stroke="black"/>
          <text x="600" y="25" text-anchor="start">auxillery</text>
