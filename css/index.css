@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #000000;
     background-color: rgba(225,225,225,.95);
-    border: 2px solid black;
+    border: 3px solid black;
     font-weight: 600;
     border-radius: 10px;
 }
@@ -18,7 +18,7 @@ div {
     text-align: left;
     color: #000000;
     background-color: rgba(225,225,225,.95);
-    border: 2px solid black;
+    border: 3px solid black;
     font-size: 125%;
     font-weight: 600;
     border-radius: 10px;
