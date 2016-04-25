@@ -14,15 +14,15 @@
             </head>
             <body>
                 <h1>Excerpts</h1>
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="//excerpt"/>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="excerpt">
-        <h3><xsl:value-of select="//excerpt"/></h3>
         <div>
-            <xsl:apply-templates/>
+           <p><xsl:value-of select="position()"/></p>
+           <p><xsl:apply-templates/></p>
         </div>
     </xsl:template>
     

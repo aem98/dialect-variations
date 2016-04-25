@@ -180,3 +180,8 @@ svg{
   font-size: 100%;
   text-align: center;
 }
+
+.excerpt {
+    direction: rtl;
+    text-align: right;
+}
