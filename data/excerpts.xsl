@@ -13,18 +13,17 @@
                 <title>Jordanian Arabic | Excerpts</title>
             </head>
             <body>
-                <h3>Excerpts</h3>
-                <xsl:apply-templates select="//excerpt"/>
+                <h1>Excerpts</h1>
+                <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="excerpt">
-        <xsl:for-each select="//excerpt">
-        <p>
+        <h3><xsl:value-of select="//excerpt"/></h3>
+        <div>
             <xsl:apply-templates/>
-        </p>
-        </xsl:for-each>
+        </div>
     </xsl:template>
     
 </xsl:stylesheet>
