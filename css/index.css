@@ -15,6 +15,16 @@ h1 {
     border-radius: 10px;
 }
 
+h3 {    
+    text-align: left;
+    color: #000000;
+    background-color: rgba(225,225,225,.95);
+    border: 2px solid black;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
     
 div {
     text-align: left;
@@ -30,7 +40,7 @@ div {
     
 }   
 
-div + div {margin-top:10px;}
+div + div {margin-top:15px;}
 
 table {
     text-align: center;
