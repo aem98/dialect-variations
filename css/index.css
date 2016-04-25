@@ -5,7 +5,8 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 {
+
+h1 {
     text-align: center;
     color: #000000;
     background-color: rgba(225,225,225,.95);
@@ -13,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     border-radius: 10px;
 }
+
     
 div {
     text-align: left;
@@ -27,6 +29,8 @@ div {
     overflow: auto;
     
 }   
+
+div + div {margin-top:10px;}
 
 table {
     text-align: center;
@@ -184,4 +188,5 @@ svg{
 .excerpt {
     direction: rtl;
     text-align: right;
+    line-height: 28px;
 }
