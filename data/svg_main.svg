@@ -140,6 +140,6 @@
             fill="yellow"
             width="50"
             stroke="black"/>
-         <text x="600" y="25" text-anchor="start">auxillery</text>
+         <text x="600" y="25" text-anchor="start">auxiliary</text>
    </g>
 </svg>
